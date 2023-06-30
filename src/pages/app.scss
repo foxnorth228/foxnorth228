@@ -1,0 +1,15 @@
+:root {
+    --scale: 1.5;
+}
+html {
+    background-color: rgb(203, 203, 216);
+}
+
+.wrapper {
+    width: calc(612px * var(--scale));
+    height: calc(792px * var(--scale));
+    position: relative;
+    margin: 100px auto 80px auto;
+    background-color: #F8F8F8;
+    box-shadow: 11px 12px 32px 3px rgba(0, 0, 0, 0.25);
+}

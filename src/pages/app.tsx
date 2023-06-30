@@ -1,11 +1,13 @@
 import React from 'react';
 import './app.scss';
-
+import Main from '@layouts/main/main';
+import WorkInfo from '@layouts/aside/aside';
 
 export const App: React.FC = () => {
   return (
     <div className="wrapper">
-      <h1>Hello React</h1>
+      <Main />
+      <WorkInfo />
     </div>
   );
 };
