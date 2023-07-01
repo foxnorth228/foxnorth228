@@ -1,6 +1,8 @@
+@use '@pages/app.scss' as app;
+
 .authorFace {
-    width: calc(243px * var(--scale));
-    height: calc(302px * var(--scale));
+    width: app.scale(243px);
+    height: app.scale(302px);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -8,9 +10,9 @@
 }
 
 .authorFace__image {
-    width: calc(158px * var(--scale));
-    height: calc(158px * var(--scale));
-    margin-top: calc(52px * var(--scale));
+    width: app.scale(158px);
+    height: app.scale(158px);
+    margin-top: app.scale(52px);
     background-color: #fff;
     background-image: url('@assets/face.webp');
     background-position: center -10%;
@@ -23,26 +25,26 @@
 .authorFace__name {
     color: #00101F;
     text-align: center;
-    font-size: calc(16px * var(--scale));
+    font-size: app.scale(16px);
     font-family: Poppins;
     font-style: normal;
     font-weight: 800;
-    line-height: calc(12px * var(--scale));
+    line-height: app.scale(12px);
     letter-spacing: 1.44px;
-    margin-top: calc(13px * var(--scale));
+    margin-top: app.scale(13px);
     margin-bottom: 0;
 }
 
 .authorFace__job {
-    margin-top: calc(6px * var(--scale));
+    margin-top: app.scale(6px);
     margin-bottom: 0;
     color: #656565;
     text-align: center;
-    font-size: calc(9px * var(--scale));
+    font-size: app.scale(9px);
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    line-height: calc(12.435px * var(--scale));
-    letter-spacing: calc(0.45px * var(--scale));
+    line-height: app.scale(12.435px);
+    letter-spacing: app.scale(0.45px);
     text-transform: uppercase;
 }
