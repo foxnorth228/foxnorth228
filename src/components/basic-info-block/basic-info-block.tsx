@@ -12,6 +12,7 @@ const BasicInfoBlock = () => {
           <p>Phone</p>
           <p>Email</p>
           <p>Address</p>
+          <p>Native language</p>
         </div>
         <div className="basicInfo__column basicInfo__column_values">
           <p>{process.env.NAME}</p>
@@ -19,6 +20,7 @@ const BasicInfoBlock = () => {
           <p>{process.env.PHONE}</p>
           <p>{process.env.EMAIL}</p>
           <p>{process.env.ADDRESS}</p>
+          <p>{process.env.NATIVE_LANGUAGE}</p>
         </div>
       </div>
     </InfoBlock>
