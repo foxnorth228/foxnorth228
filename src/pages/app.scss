@@ -1,10 +1,23 @@
+@font-face {
+    font-family: Poppins;
+    src: url('@assets/fonts/Poppins.otf');
+    font-display: swap;
+}
 :root {
     --scale: 1.5;
 }
 html {
+    box-sizing: border-box;
     background-color: rgb(203, 203, 216);
 }
-
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
 .wrapper {
     width: calc(612px * var(--scale));
     height: calc(792px * var(--scale));

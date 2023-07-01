@@ -1,11 +1,11 @@
 import React from 'react';
 import './main.scss';
-import BasicInfo from '@components/basicInfo/basicInfo';
+import InfoBlock from '@layouts/info-block/info-block';
 
 const Main = () => {
   return (
     <main className="main">
-      <BasicInfo />
+      <InfoBlock />
       <div className="main__blueRect"></div>
     </main>
   );
