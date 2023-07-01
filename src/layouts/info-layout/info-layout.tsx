@@ -1,5 +1,5 @@
 import React from 'react';
-import './info-block.scss';
+import './info-layout.scss';
 import AuthorFace from '@components/authorFace/authorFace';
 import BasicInfoBlock from '@components/basic-info-block/basic-info-block';
 

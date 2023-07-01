@@ -1,6 +1,6 @@
 import React from 'react';
 import './main.scss';
-import InfoBlock from '@layouts/info-block/info-block';
+import InfoBlock from '@src/layouts/info-layout/info-layout';
 
 const Main = () => {
   return (
