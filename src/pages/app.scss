@@ -3,6 +3,10 @@
     src: url('@assets/fonts/Poppins.otf');
     font-display: swap;
 }
+@function scale($size) {
+    @return calc($size * var(--scale));
+}
+
 :root {
     --scale: 1.5;
 }
@@ -11,16 +15,16 @@ html {
     background-color: rgb(203, 203, 216);
 }
 *,
-::before,
-::after {
+:before,
+:after {
     box-sizing: inherit;
 }
 body {
     margin: 0;
 }
 .wrapper {
-    width: calc(612px * var(--scale));
-    height: calc(792px * var(--scale));
+    width: scale(612px);
+    height: scale(792px);
     position: relative;
     margin: 100px auto 80px auto;
     background-color: #F8F8F8;
