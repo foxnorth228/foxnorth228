@@ -1,0 +1,27 @@
+@use '@pages/app.scss' as app;
+
+.infoBlock__title {
+    color: #042F57;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: app.scale(8.327px);
+    letter-spacing: app.scale(0.5px);
+}
+
+.infoBlock__line {
+    position: relative;
+    width: app.scale(178px);
+    height: 1px;
+    background-color: #CCC;
+}
+
+.infoBlock__line:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: app.scale(18px);
+    height: 100%;
+    background-color: #042F57;;
+}

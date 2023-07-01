@@ -5,30 +5,7 @@
 }
 
 .basicInfo__title {
-    color: #042F57;
     font-size: app.scale(10px);
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 700;
-    line-height: app.scale(8.327px);
-    letter-spacing: app.scale(0.5px);
-}
-
-.basicInfo__line {
-    position: relative;
-    width: app.scale(178px);
-    height: 1px;
-    background-color: #CCC;
-}
-
-.basicInfo__line:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: app.scale(18px);
-    height: 100%;
-    background-color: #042F57;;
 }
 
 .basicInfo__columns {

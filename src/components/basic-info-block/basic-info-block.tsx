@@ -1,11 +1,10 @@
 import React from 'react';
 import './basic-info-block.scss';
+import InfoBlock from '../info-block/info-block';
 
 const BasicInfoBlock = () => {
   return (
-    <div className="basicInfo__block">
-      <h3 className="basicInfo__title">Basic info</h3>
-      <div className="basicInfo__line"></div>
+    <InfoBlock title="Basic info" titleSize="basicInfo__title" className="basicInfo__block">
       <div className="basicInfo__columns">
         <div className="basicInfo__column basicInfo__column_titles">
           <p>Name</p>
@@ -22,7 +21,7 @@ const BasicInfoBlock = () => {
           <p>{process.env.ADDRESS}</p>
         </div>
       </div>
-    </div>
+    </InfoBlock>
   );
 };
 
