@@ -1,0 +1,57 @@
+@use '@pages/app.scss' as app;
+
+.basicInfo__block {
+    margin-left: calc(38px * var(--scale));
+}
+
+.basicInfo__title {
+    color: #042F57;
+    font-size: app.scale(10px);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: app.scale(8.327px);
+    letter-spacing: app.scale(0.5px);
+}
+
+.basicInfo__line {
+    position: relative;
+    width: app.scale(178px);
+    height: 1px;
+    background-color: #CCC;
+}
+
+.basicInfo__line:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: app.scale(18px);
+    height: 100%;
+    background-color: #042F57;;
+}
+
+.basicInfo__columns {
+    display: flex;
+}
+
+.basicInfo__column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #3C3C3C;
+    font-size: app.scale(8px);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: app.scale(12px);
+    & p {
+        margin-top: app.scale(3px);
+        margin-bottom: 0;
+    }
+}
+
+.basicInfo__column_values {
+    font-weight: 400;
+    margin-left: app.scale(10px);
+}
