@@ -1,0 +1,18 @@
+@use '@pages/app.scss' as app;
+
+.aboutBlock {
+    margin-top: app.scale(33px);
+    margin-left: app.scale(38px);
+    margin-right: app.scale(38px);
+    width: fit-content;
+    color: #3C3C3C;
+    font-size: app.scale(8.894px);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: app.scale(10.451px);
+}
+
+.aboutBlock__title {
+    font-size: app.scale(11.117px);
+}
