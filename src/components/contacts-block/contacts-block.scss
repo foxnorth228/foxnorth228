@@ -1,0 +1,51 @@
+@use '@pages/app.scss' as app;
+
+.contactsBlock {
+    margin-top: app.scale(38px);
+    margin-left: app.scale(38px);
+    color: #3C3C3C;
+    font-size: app.scale(8px);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: app.scale(12px);
+}
+
+.contactsBlock__title {
+    font-size: app.scale(10px);
+}
+
+.contactsBlock__elems {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.contactsBlock__link,
+.contactsBlock__link:active,
+.contactsBlock__link:visited {
+    margin-top: app.scale(5px);
+    color: #3C3C3C;
+    font-size: app.scale(8px);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: app.scale(12px);
+}
+
+.contactsBlock__elemContent {
+    margin: 0;
+    display: flex;
+    width: fit-content;
+    align-items: flex-end;
+}
+
+.contactsBlock__icon {
+    width: 20px;
+    height: 20px;
+    background-color: #042F57;
+}
+
+.contactBlock__textLink {
+    margin-left: app.scale(2.5px);
+}
