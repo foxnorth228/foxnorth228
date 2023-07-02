@@ -1,0 +1,45 @@
+@use '@pages/app.scss' as app;
+
+.addEducBlock {
+    margin-top: app.scale(33px);
+    margin-left: app.scale(38px);
+    margin-right: app.scale(38px);
+    width: fit-content;
+    color: #3C3C3C;
+    font-size: app.scale(8.894px);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: app.scale(10.451px);
+}
+
+.addEducBlock__title {
+    font-size: app.scale(11.117px);
+}
+
+.addEducBlock__elem {
+    display: grid;
+    grid-template-columns: max-content 100%;
+    grid-template-rows: 1fr;
+    column-gap: 20px;
+}
+
+.addEducBlock__link,
+.addEducBlock__link:active,
+.addEducBlock__link:visited {
+    margin-top: app.scale(5px);
+    color: #3C3C3C;
+    font-size: app.scale(8px);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: app.scale(12px);
+}
+
+.addEducBlock__course {
+    color: #3C3C3C;
+}
+
+.addEducBlock__courseType {
+    color: #696969;
+}
