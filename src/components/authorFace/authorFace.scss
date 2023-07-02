@@ -2,7 +2,7 @@
 
 .authorFace {
     width: app.scale(243px);
-    height: app.scale(302px);
+    height: app.scale(282px);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -12,7 +12,7 @@
 .authorFace__image {
     width: app.scale(158px);
     height: app.scale(158px);
-    margin-top: app.scale(52px);
+    margin-top: app.scale(43px);
     background-color: #fff;
     background-image: url('@assets/face.webp');
     background-position: center -10%;
