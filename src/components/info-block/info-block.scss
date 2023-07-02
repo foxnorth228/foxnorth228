@@ -1,5 +1,9 @@
 @use '@pages/app.scss' as app;
 
+.infoBlock {
+    width: app.scale(190px);
+}
+
 .infoBlock__title {
     color: #042F57;
     font-family: Poppins;
@@ -10,8 +14,8 @@
 }
 
 .infoBlock__line {
+    width: 100%;
     position: relative;
-    width: app.scale(178px);
     height: 1px;
     background-color: #CCC;
 }
