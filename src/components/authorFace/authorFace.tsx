@@ -1,7 +1,9 @@
 import React from 'react';
 import './authorFace.scss';
+import useLanguage from '@src/hooks/useLanguage';
 
 const AuthorFace = () => {
+  const { language } = useLanguage('authorFace');
   return (
     <div className="authorFace">
       <div className="authorFace__image"></div>
