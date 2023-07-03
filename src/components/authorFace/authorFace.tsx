@@ -3,12 +3,12 @@ import './authorFace.scss';
 import useLanguage from '@src/hooks/useLanguage';
 
 const AuthorFace = () => {
-  const { language } = useLanguage('authorFace');
+  const locale = useLanguage('authorFace');
   return (
     <div className="authorFace">
       <div className="authorFace__image"></div>
-      <h2 className="authorFace__name">Alexander Khitry</h2>
-      <h3 className="authorFace__job">Frontend developer</h3>
+      <h2 className="authorFace__name">{locale.name}</h2>
+      <h3 className="authorFace__job">{locale.job}</h3>
     </div>
   );
 };
