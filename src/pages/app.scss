@@ -3,6 +3,13 @@
     src: url('@assets/fonts/Poppins.otf');
     font-display: swap;
 }
+
+@font-face {
+    font-family: Lato Light;
+    src: url('@assets/fonts/lato-light.ttf'), url('@assets/fonts/Lato-Light-EN.ttf');
+    font-display: swap;
+}
+
 @function scale($size) {
     @return calc($size * var(--scale));
 }
@@ -21,6 +28,7 @@ html {
 }
 body {
     margin: 0;
+
 }
 .wrapper {
     width: scale(612px);

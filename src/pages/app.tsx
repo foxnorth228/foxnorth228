@@ -15,7 +15,7 @@ export const App: React.FC = () => {
   };
   return (
     <LangContext.Provider value={{ language: lang, toggleLanguage: toggleLang }}>
-      <div className="wrapper">
+      <div style={{ fontFamily: lang === 'en' ? 'Poppins' : 'Lato Light' }} className="wrapper">
         <Main />
         <AddInfoBlock />
       </div>
