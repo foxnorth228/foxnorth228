@@ -19,7 +19,7 @@
 
 .educationBlock__elem {
     display: grid;
-    grid-template-columns: max-content 100%;
+    grid-template-columns: max-content 1fr;
     grid-template-rows: 1fr;
     column-gap: 20px;
 }
