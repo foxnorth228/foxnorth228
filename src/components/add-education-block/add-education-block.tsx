@@ -1,8 +1,10 @@
 import React from 'react';
 import './add-education-block.scss';
 import InfoBlock from '../info-block/info-block';
+import useLanguage from '@src/hooks/useLanguage';
 
 const AddEducationBlock = () => {
+  const locale = useLanguage('add-educ');
   const addeduc = [
     [
       '2023',
@@ -18,11 +20,7 @@ const AddEducationBlock = () => {
     ],
   ];
   return (
-    <InfoBlock
-      title="Additional education"
-      titleSize="addEducBlock__title"
-      className="addEducBlock"
-    >
+    <InfoBlock title={locale.titleAddEduc} titleSize="addEducBlock__title" className="addEducBlock">
       {addeduc.map((el, i) => (
         <div key={i} className="addEducBlock__elem">
           <p className="addEducBlock__year">{el[0]}</p>

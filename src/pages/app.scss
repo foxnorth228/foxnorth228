@@ -38,3 +38,23 @@ body {
     background-color: #F8F8F8;
     box-shadow: 11px 12px 32px 3px rgba(0, 0, 0, 0.25);
 }
+
+.wrapper__langSwitcher {
+    background-color: transparent;
+    color: #042F57;
+    font-style: normal;
+    font-weight: 700;
+    font-size: scale(12px);
+    line-height: scale(8.327px);
+    letter-spacing: scale(0.5px);
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    font-family: Lato Light;
+    border: none;
+    outline: none;
+}
+
+.wrapper__langSwitcher {
+    cursor: pointer;
+}
