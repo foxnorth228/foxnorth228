@@ -1,19 +1,4 @@
-@use '@pages/app.scss' as app;
-
-.addEducBlock {
-    margin-top: app.scale(33px);
-    margin-left: app.scale(38px);
-    margin-right: app.scale(38px);
-    width: fit-content;
-    color: #3C3C3C;
-    font-size: 1.12em;
-    font-weight: app.scaleFontWeight(0);
-    line-height: app.scale(10.451px);
-}
-
-.addEducBlock__title {
-    font-size: 1.4em;
-}
+@use '@components/add-info-block/add-info-block.scss' as app;
 
 .addEducBlock__elem {
     display: grid;
@@ -22,13 +7,9 @@
     column-gap: 20px;
 }
 
-.addEducBlock__link,
-.addEducBlock__link:active,
-.addEducBlock__link:visited {
-    margin-top: app.scale(5px);
-    color: #3C3C3C;
+.addEducBlock__link {
+    @include app.addInfoLink();
 }
-
 .addEducBlock__course {
     color: #3C3C3C;
 }

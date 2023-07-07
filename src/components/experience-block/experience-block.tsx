@@ -1,12 +1,12 @@
 import React from 'react';
 import './experience-block.scss';
-import InfoBlock from '../info-block/info-block';
 import useLanguage from '@src/hooks/useLanguage';
+import AddInfoBlock from '../add-info-block/add-info-block';
 
 const ExperienceBlock = () => {
   const locale = useLanguage('experience');
   return (
-    <InfoBlock
+    <AddInfoBlock
       title={locale.titleExp}
       titleSize="experienceBlock__title"
       className="experienceBlock"
@@ -18,7 +18,7 @@ const ExperienceBlock = () => {
       >
         {locale.link}
       </a>
-    </InfoBlock>
+    </AddInfoBlock>
   );
 };
 

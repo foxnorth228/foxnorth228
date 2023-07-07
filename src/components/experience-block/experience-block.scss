@@ -1,23 +1,5 @@
-@use '@pages/app.scss' as app;
+@use '@components/add-info-block/add-info-block.scss' as app;
 
-.experienceBlock {   
-    margin-top: app.scale(33px);
-    margin-left: app.scale(38px);
-    margin-right: app.scale(38px);
-    width: fit-content;
-    color: #3C3C3C;
-    font-size: 1.12em;
-    font-weight: app.scaleFontWeight(0);
-    line-height: app.scale(10.451px);
-}
-
-.experienceBlock__title {
-    font-size: 1.4em;
-}
-
-.experienceBlock__link,
-.experienceBlock__link:active,
-.experienceBlock__link:visited {
-    margin-top: app.scale(5px);
-    color: #3C3C3C;
+.experienceBlock__link {
+    @include app.addInfoLink();
 }

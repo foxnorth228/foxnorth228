@@ -1,12 +1,12 @@
 import React from 'react';
 import './education-block.scss';
-import InfoBlock from '../info-block/info-block';
 import useLanguage from '@src/hooks/useLanguage';
+import AddInfoBlock from '../add-info-block/add-info-block';
 
 const EducationBlock = () => {
   const locale = useLanguage('education');
   return (
-    <InfoBlock
+    <AddInfoBlock
       title={locale.titleEducBlock}
       titleSize="educationBlock__title"
       className="educationBlock"
@@ -19,7 +19,7 @@ const EducationBlock = () => {
           <p className="educationBlock__spec">{locale.spec1}</p>
         </div>
       </div>
-    </InfoBlock>
+    </AddInfoBlock>
   );
 };
 

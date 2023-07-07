@@ -1,22 +1,5 @@
 @use '@pages/app.scss' as app;
 
-.educationBlock {
-    margin-top: app.scale(33px);
-    margin-left: app.scale(38px);
-    margin-right: app.scale(38px);
-    width: fit-content;
-    color: #3C3C3C;
-    font-size: 1.12em;
-    font-family: inherit;
-    font-style: normal;
-    font-weight: app.scaleFontWeight(0);
-    line-height: app.scale(10.451px);
-}
-
-.educationBlock__title {
-    font-size: 1.4em;
-}
-
 .educationBlock__elem {
     display: grid;
     grid-template-columns: max-content 1fr;
