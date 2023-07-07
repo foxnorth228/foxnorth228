@@ -3,15 +3,13 @@
     margin-top: app.scale(33px);
     margin-left: app.scale(38px);
     color: #3C3C3C;
-    font-size: app.scale(8px);
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 400;
+    font-size: 1em;
+    font-weight: app.scaleFontWeight(0);
     line-height: app.scale(12px);
 }
 
 .skillsBlock__title {
-    font-size: app.scale(10px);
+    font-size: 1.25em;
 }
 
 .skillsBlock__list {

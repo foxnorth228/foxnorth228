@@ -1,26 +1,24 @@
 @use '@pages/app.scss' as app;
 
-.basicInfo__block {
-    margin-left: calc(38px * var(--scale));
+.basicInfoBlock {
+    margin-left: app.scale(38px);
 }
 
-.basicInfo__title {
-    font-size: app.scale(10px);
+.basicInfoBlock__title {
+    font-size: 1.25em;
 }
 
-.basicInfo__columns {
+.basicInfoBlock__columns {
     display: flex;
 }
 
-.basicInfo__column {
+.basicInfoBlock__column {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     color: #3C3C3C;
-    font-size: app.scale(8px);
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 600;
+    font-size: 1em;
+    font-weight: app.scaleFontWeight(200);
     line-height: app.scale(12px);
     & p {
         margin-top: app.scale(3px);
@@ -28,7 +26,7 @@
     }
 }
 
-.basicInfo__column_values {
-    font-weight: 400;
+.basicInfoBlock__column_values {
+    font-weight: app.scaleFontWeight(0);
     margin-left: app.scale(10px);
 }

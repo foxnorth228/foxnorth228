@@ -6,15 +6,15 @@
     margin-right: app.scale(38px);
     width: fit-content;
     color: #3C3C3C;
-    font-size: app.scale(8.894px);
+    font-size: 1.12em;
     font-family: inherit;
     font-style: normal;
-    font-weight: 400;
+    font-weight: app.scaleFontWeight(0);
     line-height: app.scale(10.451px);
 }
 
 .educationBlock__title {
-    font-size: app.scale(11.117px);
+    font-size: 1.4em;
 }
 
 .educationBlock__elem {
@@ -29,9 +29,9 @@
 }
 
 .educationBlock__educType {
-    color: #696969;
+    color: #4d4d4d;
 }
 
 .educationBlock__spec {
-    color: #949494;
+    color: #636363;
 }
