@@ -13,6 +13,12 @@ const AddEducationBlock = () => {
       'https://app.rs.school/certificate/bxomjisx',
     ],
     [
+      '2023',
+      'CSS Basics',
+      'Part of W3C\'s "Front-End Web Developer"',
+      'https://courses.edx.org/certificates/5b7f2509028c42e195d509f5f74a8c89',
+    ],
+    [
       '2022',
       'NODE.JS (RS School)',
       'The Rolling Scopes, Backend developer',
