@@ -1,12 +1,8 @@
+@import "@assets/fonts/lato/lato.css";
+
 @font-face {
     font-family: Poppins;
     src: url('@assets/fonts/Poppins.otf');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: Lato Light;
-    src: url('@assets/fonts/lato-light.ttf'), url('@assets/fonts/Lato-Light-EN.ttf');
     font-display: swap;
 }
 
@@ -17,19 +13,23 @@
 :root {
     --scale: 1.5;
 }
+
 html {
     box-sizing: border-box;
     background-color: rgb(203, 203, 216);
 }
+
 *,
 :before,
 :after {
     box-sizing: inherit;
 }
+
 body {
     margin: 0;
 
 }
+
 .wrapper {
     width: scale(612px);
     height: scale(792px);
@@ -37,6 +37,16 @@ body {
     margin: 100px auto 80px auto;
     background-color: #F8F8F8;
     box-shadow: 11px 12px 32px 3px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper_en {
+    font-family: "Poppins", "Arial", sans-serif;
+    --font-size: 400;
+}
+
+.wrapper_ru {
+    font-family: "Lato", "Arial", sans-serif;
+    --font-size: 500;
 }
 
 .wrapper__langSwitcher {

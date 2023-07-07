@@ -15,7 +15,7 @@ export const App: React.FC = () => {
   };
   return (
     <LangContext.Provider value={{ language: lang, toggleLanguage: toggleLang }}>
-      <div style={{ fontFamily: lang === 'en' ? 'Poppins' : 'Lato Light' }} className="wrapper">
+      <div className={`wrapper ${lang === 'en' ? 'wrapper_en' : 'wrapper_ru'}`}>
         <button className="wrapper__langSwitcher" onClick={() => toggleLang()}>
           {lang.toUpperCase()}
         </button>
