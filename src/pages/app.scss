@@ -14,6 +14,15 @@
     @return calc($size * var(--scale));
 }
 
+@mixin addLink() {
+    &,
+    &:active,
+    &:visited {
+        margin-top: scale(5px);
+        color: #3C3C3C;
+    }
+}
+
 :root {
     --scale: 1.5;
 }

@@ -1,5 +1,5 @@
-@use '@components/add-info-block/add-info-block.scss' as app;
+@use '@pages/app.scss' as app;
 
 .experienceBlock__link {
-    @include app.addInfoLink();
+    @include app.addLink();
 }

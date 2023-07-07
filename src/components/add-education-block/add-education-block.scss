@@ -1,4 +1,4 @@
-@use '@components/add-info-block/add-info-block.scss' as app;
+@use '@pages/app.scss' as app;
 
 .addEducBlock__elem {
     display: grid;
@@ -8,7 +8,7 @@
 }
 
 .addEducBlock__link {
-    @include app.addInfoLink();
+    @include app.addLink();
 }
 .addEducBlock__course {
     color: #3C3C3C;
