@@ -1,7 +1,7 @@
 import React from 'react';
 import './app.scss';
 import Main from '@layouts/main/main';
-import AddInfoBlock from '@layouts/add-info-block/add-info-block';
+import AddInfoLayout from '@src/layouts/add-info-layout/add-info-layout';
 import LangContext from '@src/contexts/LangContext';
 
 export const App: React.FC = () => {
@@ -20,7 +20,7 @@ export const App: React.FC = () => {
           {lang.toUpperCase()}
         </button>
         <Main />
-        <AddInfoBlock />
+        <AddInfoLayout />
       </div>
     </LangContext.Provider>
   );
