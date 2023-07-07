@@ -1,11 +1,7 @@
 @use '@pages/app.scss' as app;
 
 .basicInfoBlock {
-    margin-left: app.scale(38px);
-}
-
-.basicInfoBlock__title {
-    font-size: 1.25em;
+    margin-top: 0px;
 }
 
 .basicInfoBlock__columns {
@@ -16,10 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    color: #3C3C3C;
-    font-size: 1em;
     font-weight: app.scaleFontWeight(200);
-    line-height: app.scale(12px);
     & p {
         margin-top: app.scale(3px);
         margin-bottom: 0;

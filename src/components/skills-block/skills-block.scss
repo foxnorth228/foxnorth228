@@ -1,17 +1,3 @@
-@use '@pages/app.scss' as app;
-.skillsBlock {
-    margin-top: app.scale(33px);
-    margin-left: app.scale(38px);
-    color: #3C3C3C;
-    font-size: 1em;
-    font-weight: app.scaleFontWeight(0);
-    line-height: app.scale(12px);
-}
-
-.skillsBlock__title {
-    font-size: 1.25em;
-}
-
 .skillsBlock__list {
     list-style-position: inside;
     padding-left: 0;

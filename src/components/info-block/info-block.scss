@@ -1,14 +1,19 @@
 @use '@pages/app.scss' as app;
 
-.infoBlock {
+:where(.infoBlock) {
     width: app.scale(190px);
+    margin-top: app.scale(33px);
+    margin-left: app.scale(38px);
+    color: #3C3C3C;
+    font-size: 1em;
+    font-weight: app.scaleFontWeight(0);
+    line-height: app.scale(12px);
 }
 
-.infoBlock__title {
+:where(.infoBlock__title) {
+    font-size: 1.25em;
     color: #042F57;
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 700;
+    font-weight: app.scaleFontWeight(300);
     line-height: app.scale(8.327px);
     letter-spacing: app.scale(0.5px);
 }
