@@ -13,9 +13,9 @@ const SkillsBlock = () => {
     >
       <ul className="skillsBlock__list">
         <li className="skillsBlock__elem">HTML/CSS</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>React</li>
+        <li>JavaScript, TypeScript</li>
+        <li>React (React hooks)</li>
+        <li>Redux</li>
         <li>SASS/SCSS</li>
       </ul>
     </InfoBlock>

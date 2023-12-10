@@ -12,10 +12,12 @@ const AuxSkillsBlock = () => {
       className="auxSkillsBlock"
     >
       <ul className="auxSkillsBlock__list">
-        <li>Git</li>
-        <li>Linux</li>
+        <li>Git, Linux</li>
+        <li>Eslint, Prettier</li>
         <li>Webpack</li>
-        <li>Npm</li>
+        <li>Npm, Yarn</li>
+        <li>Jest, Cypress</li>
+        <li>Styled-components</li>
         <li>{locale.english}(B2)</li>
       </ul>
     </InfoBlock>
