@@ -1,19 +1,19 @@
 @use '@pages/App/style' as app;
 
-.addEducBlock__elem {
+.blockAddEduc__elem {
     display: grid;
     grid-template-columns: max-content 100%;
     grid-template-rows: 1fr;
     column-gap: 20px;
 }
 
-.addEducBlock__link {
+.blockAddEduc__link {
     @include app.addLink();
 }
-.addEducBlock__course {
+.blockAddEduc__course {
     color: #3C3C3C;
 }
 
-.addEducBlock__courseType {
+.blockAddEduc__courseType {
     color: #696969;
 }

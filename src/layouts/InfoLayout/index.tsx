@@ -8,7 +8,7 @@ import ContactsBlock from '@components/BlockContacts';
 
 const InfoLayout = () => {
   return (
-    <section className="basicInfo">
+    <section className="infoLayout">
       <AuthorFace />
       <BasicInfoBlock />
       <SkillsBlock />

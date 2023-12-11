@@ -1,3 +1,5 @@
+@use '@pages/App/style' as app;
+
 .main {
     width: 100%;
     height: 100%;
@@ -5,7 +7,7 @@
 }
 
 .main__blueRect {
-    width: calc(204px * var(--scale));
+    width: app.scale(204px);
     height: 100%;
     background: #042F57;
 }

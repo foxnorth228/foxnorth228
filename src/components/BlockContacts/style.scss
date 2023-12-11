@@ -1,23 +1,23 @@
 @use '@pages/App/style' as app;
 
-.contactsBlock__elems {
+.blockContacts__elems {
     display: grid;
     grid-template-columns: 120px 120px;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-.contactsBlock__link {
+.blockContacts__link {
     @include app.addLink();
 }
 
-.contactsBlock__elemContent {
+.blockContacts__elemContent {
     margin: 0;
     display: flex;
     width: fit-content;
     align-items: flex-end;
 }
 
-.contactsBlock__icon {
+.blockContacts__icon {
     width: 20px;
     height: 20px;
     background-color: #042F57;

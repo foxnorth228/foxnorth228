@@ -1,14 +1,14 @@
 import React from 'react';
 import lang from './lang';
-import AddInfoBlock from '@components/ContainerAddInfo';
+import ContainerAddInfo from '@components/ContainerAddInfo';
 import useLanguage from '@hooks/useLanguage';
 
 const AboutBlock = () => {
   const langType = useLanguage();
   return (
-    <AddInfoBlock title={lang[langType].title} titleSize="aboutBlock__title" className="aboutBlock">
+    <ContainerAddInfo title={lang[langType].title}>
       <p>{lang[langType].text}</p>
-    </AddInfoBlock>
+    </ContainerAddInfo>
   );
 };
 

@@ -1,15 +1,26 @@
 const lang = {
   en: {
-    titleEducBlock: 'Education',
-    univer1: 'Belarusian State University of Informatics and Radioelectronics (BSUIR)',
-    educType1: 'Incomplete higher education',
-    spec1: 'Software engineer',
+    title: 'Education',
+    education: [
+      {
+        year: '2020-2025',
+        university: 'Belarusian State University of Informatics and Radioelectronics (BSUIR)',
+        educType: 'Incomplete higher education',
+        specialization: 'Software engineer',
+      },
+    ],
   },
   ru: {
-    titleEducBlock: 'Образование',
-    univer1: 'Белорусский государственный университет информатики и радиоэлектроники (БГУИР)',
-    educType1: 'Неоконченное высшее образование',
-    spec1: 'Инженер-программист',
+    title: 'Образование',
+    education: [
+      {
+        year: '2020-2025',
+        university:
+          'Белорусский государственный университет информатики и радиоэлектроники (БГУИР)',
+        educType: 'Неоконченное высшее образование',
+        specialization: 'Инженер-программист',
+      },
+    ],
   },
 };
 

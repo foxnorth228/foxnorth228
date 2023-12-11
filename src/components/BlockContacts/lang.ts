@@ -1,11 +1,11 @@
 const lang = {
   en: {
-    titlePort: 'My portfolio',
-    titleContacts: 'Contacts',
+    portfolio: 'My portfolio',
+    contacts: 'Contacts',
   },
   ru: {
-    titlePort: 'Моё портфолио',
-    titleContacts: 'Связь',
+    portfolio: 'Моё портфолио',
+    contacts: 'Связь',
   },
 };
 

@@ -3,13 +3,15 @@ import './style.scss';
 import Main from '@layouts/Main';
 import AddInfoLayout from '@layouts/AddInfoLayout';
 import LangContext from '@contexts/LangContext';
+import { ILangContext } from '@contexts/LangContext/types';
 
 export const App: React.FC = () => {
-  const [lang, setLang] = React.useState<'en' | 'ru'>(localStorage.getItem('lang') || 'ru');
+  const [lang, setLang] = React.useState<ILangContext>(
+    (localStorage.getItem('lang') as ILangContext) || 'ru'
+  );
 
   const toggleLang = () => {
     const newLang = lang === 'ru' ? 'en' : 'ru';
-
     setLang(newLang);
     localStorage.setItem('lang', newLang);
   };

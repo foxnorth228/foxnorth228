@@ -1,14 +1,14 @@
 @use '@pages/App/style' as app;
 
-.basicInfoBlock {
-    margin-top: 0px;
+.blockBasicInfo {
+    margin-top: 0;
 }
 
-.basicInfoBlock__columns {
+.blockBasicInfo__columns {
     display: flex;
 }
 
-.basicInfoBlock__column {
+.blockBasicInfo__column {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -19,7 +19,7 @@
     }
 }
 
-.basicInfoBlock__column_values {
+.blockBasicInfo__column_values {
     font-weight: app.scaleFontWeight(0);
     margin-left: app.scale(10px);
 }

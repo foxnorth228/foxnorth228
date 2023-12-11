@@ -1,6 +1,6 @@
 @use '@pages/App/style' as app;
 
-.addInfoBlock {
+.containerAddInfo {
     margin-top: app.scale(33px);
     margin-left: app.scale(38px);
     margin-right: app.scale(38px);
@@ -11,7 +11,7 @@
     line-height: app.scale(10.451px);
 }
 
-.addInfoBlock__title {
+.containerAddInfo__title {
     font-size: 1.4em;
     color: #042F57;
     font-weight: app.scaleFontWeight(300);
@@ -19,14 +19,14 @@
     letter-spacing: app.scale(0.5px);
 }
 
-.addInfoBlock__line {
+.containerAddInfo__line {
     width: 100%;
     position: relative;
     height: 1px;
     background-color: #CCC;
 }
 
-.addInfoBlock__line:after {
+.containerAddInfo__line:after {
     content: '';
     position: absolute;
     left: 0;

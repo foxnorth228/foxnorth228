@@ -1,17 +1,15 @@
 import React from 'react';
 import './style.scss';
 import { IInfoBlock } from './types';
-import useLanguage from '@hooks/useLanguage';
 
-const AddInfoBlock = ({ title, titleSize, className, children }: IInfoBlock) => {
-  const langType = useLanguage();
+const ContainerAddInfo = ({ title, children }: IInfoBlock) => {
   return (
-    <div className={`addInfoBlock ${className}`}>
-      <h3 className={`addInfoBlock__title ${titleSize}`}>{title}</h3>
-      <div className="addInfoBlock__line"></div>
+    <div className="containerAddInfo">
+      <h3 className="containerAddInfo__title">{title}</h3>
+      <div className="containerAddInfo__line"></div>
       {children}
     </div>
   );
 };
 
-export default AddInfoBlock;
+export default ContainerAddInfo;

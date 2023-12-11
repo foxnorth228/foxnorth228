@@ -1,25 +1,19 @@
 import React from 'react';
 import './style.scss';
 import lang from './lang';
-import AddInfoBlock from '@components/ContainerAddInfo';
+import ContainerAddInfo from '@components/ContainerAddInfo';
 import useLanguage from '@hooks/useLanguage';
+import config from '@components/BlockExperience/config';
 
 const ExperienceBlock = () => {
   const langType = useLanguage();
   return (
-    <AddInfoBlock
-      title={lang[langType].titleExp}
-      titleSize="experienceBlock__title"
-      className="experienceBlock"
-    >
+    <ContainerAddInfo title={lang[langType].title}>
       <p>{lang[langType].text}</p>
-      <a
-        className="experienceBlock__link"
-        href="https://master--moonlit-sprite-20c9ef.netlify.app/"
-      >
+      <a className="blockExperience__link" href={config.linkPortfolio}>
         {lang[langType].link}
       </a>
-    </AddInfoBlock>
+    </ContainerAddInfo>
   );
 };
 

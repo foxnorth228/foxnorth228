@@ -7,7 +7,7 @@ import AddEducationBlock from '@components/BlockAddEducation';
 
 const AddInfoLayout = () => {
   return (
-    <section className="workInfo">
+    <section className="addInfoLayout">
       <AboutBlock />
       <EducationBlock />
       <ExperienceBlock />

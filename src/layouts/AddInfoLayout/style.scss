@@ -1,9 +1,11 @@
-.workInfo {
-    width: calc(340px * var(--scale));
-    height: calc(733px * var(--scale));
+@use '@pages/App/style' as app;
+
+.addInfoLayout {
+    width: app.scale(340px);
+    height: app.scale(733px);
     background-color: #FFF;
     position: absolute;
-    left: calc(243px * var(--scale));
-    top: calc(28px * var(--scale));
+    left: app.scale(243px);
+    top: app.scale(28px);
     box-shadow: 11px 12px 32px 3px rgba(0, 0, 0, 0.25);
 }

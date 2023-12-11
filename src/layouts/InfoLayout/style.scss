@@ -1,5 +1,7 @@
-.basicInfo {
-    width: calc(408px * var(--scale));
+@use '@pages/App/style' as app;
+
+.infoLayout {
+    width: app.scale(408px);
     height: 100%;
     background-color: transparent;
 }

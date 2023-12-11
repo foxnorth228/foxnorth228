@@ -3,21 +3,16 @@ import './style.scss';
 import ContainerInfo from '@components/ContainerInfo';
 import lang from './lang';
 import useLanguage from '@hooks/useLanguage';
+import config from './config';
 
 const SkillsBlock = () => {
   const langType = useLanguage();
   return (
-    <ContainerInfo
-      title={lang[langType].titleSkillsBlock}
-      titleSize="skillsBlock__title"
-      className="skillsBlock"
-    >
-      <ul className="skillsBlock__list">
-        <li className="skillsBlock__elem">HTML/CSS</li>
-        <li>JavaScript, TypeScript</li>
-        <li>React (React hooks)</li>
-        <li>Redux</li>
-        <li>SASS/SCSS</li>
+    <ContainerInfo title={lang[langType].titleSkillsBlock}>
+      <ul className="blockSkills__list">
+        {config.skills.map((el, i) => (
+          <li key={i}>{el}</li>
+        ))}
       </ul>
     </ContainerInfo>
   );

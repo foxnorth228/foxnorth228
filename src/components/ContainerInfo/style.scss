@@ -1,6 +1,6 @@
 @use '@pages/App/style' as app;
 
-:where(.infoBlock) {
+:where(.containerInfo) {
     width: app.scale(190px);
     margin-top: app.scale(30px);
     margin-left: app.scale(38px);
@@ -10,7 +10,7 @@
     line-height: app.scale(12px);
 }
 
-:where(.infoBlock__title) {
+:where(.containerInfo__title) {
     font-size: 1.25em;
     color: #042F57;
     font-weight: app.scaleFontWeight(300);
@@ -18,14 +18,14 @@
     letter-spacing: app.scale(0.5px);
 }
 
-.infoBlock__line {
+.containerInfo__line {
     width: 100%;
     position: relative;
     height: 1px;
     background-color: #CCC;
 }
 
-.infoBlock__line:after {
+.containerInfo__line:after {
     content: '';
     position: absolute;
     left: 0;

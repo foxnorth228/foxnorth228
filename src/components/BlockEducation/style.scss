@@ -1,20 +1,20 @@
 @use '@pages/App/style' as app;
 
-.educationBlock__elem {
+.blockEducation__elem {
     display: grid;
     grid-template-columns: max-content 1fr;
     grid-template-rows: 1fr;
     column-gap: 20px;
 }
 
-.educationBlock__univer {
+.blockEducation__univer {
     color: #3C3C3C;
 }
 
-.educationBlock__educType {
+.blockEducation__educType {
     color: #4d4d4d;
 }
 
-.educationBlock__spec {
+.blockEducation__spec {
     color: #636363;
 }
