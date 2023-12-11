@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack serve --mode development",
-    "build": "webpack --mode production --progress",
+    "build": "webpack --mode production --config webpack.prod.cjs",
+    "dev": "webpack serve --mode development --config webpack.dev.cjs",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
     "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'"
   },
@@ -43,6 +43,7 @@
     "typescript": "^5.0.4",
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1"
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.10.0"
   }
 }

@@ -1,0 +1,5 @@
+@use '@pages/App/style' as app;
+
+.experienceBlock__link {
+    @include app.addLink();
+}

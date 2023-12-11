@@ -1,0 +1,46 @@
+@use '@pages/App/style' as app;
+
+.authorFace {
+    width: app.scale(243px);
+    height: app.scale(282px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.authorFace__image {
+    width: app.scale(158px);
+    height: app.scale(158px);
+    margin-top: app.scale(43px);
+    background-color: #fff;
+    background-image: url('@assets/face.webp');
+    background-position: center -10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 5px solid #B3B3B1;
+}
+
+.authorFace__name {
+    color: #00101F;
+    font-size: 2em;
+    font-weight: app.scaleFontWeight(400);
+    line-height: app.scale(12px);
+    letter-spacing: 1.44px;
+    margin-top: app.scale(13px);
+    margin-bottom: 0;
+}
+
+.authorFace__job {
+    margin-top: app.scale(6px);
+    margin-bottom: 0;
+    color: #656565;
+    font-size: 1.125em;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: app.scaleFontWeight(200);
+    line-height: app.scale(12.435px);
+    letter-spacing: app.scale(0.45px);
+    text-transform: uppercase;
+}

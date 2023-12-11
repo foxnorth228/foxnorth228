@@ -1,0 +1,37 @@
+@use '@pages/App/style' as app;
+
+.addInfoBlock {
+    margin-top: app.scale(33px);
+    margin-left: app.scale(38px);
+    margin-right: app.scale(38px);
+    width: fit-content;
+    color: #3C3C3C;
+    font-size: 1.12em;
+    font-weight: app.scaleFontWeight(0);
+    line-height: app.scale(10.451px);
+}
+
+.addInfoBlock__title {
+    font-size: 1.4em;
+    color: #042F57;
+    font-weight: app.scaleFontWeight(300);
+    line-height: app.scale(8.327px);
+    letter-spacing: app.scale(0.5px);
+}
+
+.addInfoBlock__line {
+    width: 100%;
+    position: relative;
+    height: 1px;
+    background-color: #CCC;
+}
+
+.addInfoBlock__line:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: app.scale(18px);
+    height: 100%;
+    background-color: #042F57;
+}

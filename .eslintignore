@@ -1,4 +1,4 @@
 node_modules
-webpack.config.cjs
+webpack.common.cjs
 create-env.js
 dist
